@@ -15,11 +15,6 @@ class UserRegistered
         $this->db = $db;
     }
 
-    public function subscribe(Dispatcher $events)
-    {
-        $events->listen(Registered::class, [$this, 'handle']);
-    }
-
     public function handle(Registered $event)
     {
         $user = $event->user;
