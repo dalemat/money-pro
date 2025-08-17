@@ -1,0 +1,24 @@
+{
+  "name": "in-time/money-pro",
+  "description": "A full-featured virtual currency system for Flarum with crypto deposits and monetization tools.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "InTime\\MoneyPro\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Money Pro – Virtual Currency & Monetization Suite",
+      "icon": {
+        "name": "fas fa-crown",
+        "backgroundColor": "#d4af37",
+        "color": "#fff"
+      }
+    }
+  }
+}
